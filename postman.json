@@ -1,0 +1,685 @@
+{
+	"info": {
+		"_postman_id": "f0156853-acd4-4965-918a-f8a2b3e7e6c7",
+		"name": "postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7834317"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/people",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "dada",
+						"value": "a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"edited\": \"2014-12-20T21:17:56.891Z\",\r\n    \"name\": \"Luke Skywalker2\",\r\n    \"created\": \"2014-12-09T13:50:51.644Z\",\r\n    \"gender\": \"male\",\r\n    \"skin_color\": \"fair\",\r\n    \"hair_color\": \"blond\",\r\n    \"height\": \"172\",\r\n    \"eye_color\": \"REDDDD\",\r\n    \"mass\": \"77\",\r\n    \"homeworld\": 2,\r\n    \"birth_year\": \"19BBY\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/people",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"people"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/people/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "dada",
+						"value": "a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"edited\": \"2014-12-20T21:17:56.891Z\",\r\n    \"name\": \"Luke Skywalker2\",\r\n    \"created\": \"2014-12-09T13:50:51.644Z\",\r\n    \"gender\": \"male\",\r\n    \"skin_color\": \"fair\",\r\n    \"hair_color\": \"blond\",\r\n    \"height\": \"172\",\r\n    \"eye_color\": \"REDDDD\",\r\n    \"mass\": \"77\",\r\n    \"homeworld\": 2,\r\n    \"birth_year\": \"19BBY\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/people/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"people",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/people",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/people",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"people"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/people/1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/people/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"people",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/people/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/people/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"people",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/films",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "dada",
+						"value": "a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"edited\": \"2014-12-20T21:17:56.891Z\",\r\n    \"name\": \"Luke Skywalker2\",\r\n    \"created\": \"2014-12-09T13:50:51.644Z\",\r\n    \"gender\": \"male\",\r\n    \"skin_color\": \"fair\",\r\n    \"hair_color\": \"blond\",\r\n    \"height\": \"172\",\r\n    \"eye_color\": \"REDDDD\",\r\n    \"mass\": \"77\",\r\n    \"homeworld\": 2,\r\n    \"birth_year\": \"19BBY\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/films",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"films"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/films/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "dada",
+						"value": "a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"edited\": \"2014-12-20T21:17:56.891Z\",\r\n    \"name\": \"Luke Skywalker2\",\r\n    \"created\": \"2014-12-09T13:50:51.644Z\",\r\n    \"gender\": \"male\",\r\n    \"skin_color\": \"fair\",\r\n    \"hair_color\": \"blond\",\r\n    \"height\": \"172\",\r\n    \"eye_color\": \"REDDDD\",\r\n    \"mass\": \"77\",\r\n    \"homeworld\": 2,\r\n    \"birth_year\": \"19BBY\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/films/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"films",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/films",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "dada",
+						"value": "a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"edited\": \"2014-12-20T21:17:56.891Z\",\r\n    \"name\": \"Luke Skywalker2\",\r\n    \"created\": \"2014-12-09T13:50:51.644Z\",\r\n    \"gender\": \"male\",\r\n    \"skin_color\": \"fair\",\r\n    \"hair_color\": \"blond\",\r\n    \"height\": \"172\",\r\n    \"eye_color\": \"REDDDD\",\r\n    \"mass\": \"77\",\r\n    \"homeworld\": 2,\r\n    \"birth_year\": \"19BBY\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/films",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"films"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/films/1",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "dada",
+						"value": "a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"edited\": \"2014-12-20T21:17:56.891Z\",\r\n    \"name\": \"Luke Skywalker2\",\r\n    \"created\": \"2014-12-09T13:50:51.644Z\",\r\n    \"gender\": \"male\",\r\n    \"skin_color\": \"fair\",\r\n    \"hair_color\": \"blond\",\r\n    \"height\": \"172\",\r\n    \"eye_color\": \"REDDDD\",\r\n    \"mass\": \"77\",\r\n    \"homeworld\": 2,\r\n    \"birth_year\": \"19BBY\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/films/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"films",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/films/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "dada",
+						"value": "a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"edited\": \"2014-12-20T21:17:56.891Z\",\r\n    \"name\": \"Luke Skywalker2\",\r\n    \"created\": \"2014-12-09T13:50:51.644Z\",\r\n    \"gender\": \"male\",\r\n    \"skin_color\": \"fair\",\r\n    \"hair_color\": \"blond\",\r\n    \"height\": \"172\",\r\n    \"eye_color\": \"REDDDD\",\r\n    \"mass\": \"77\",\r\n    \"homeworld\": 2,\r\n    \"birth_year\": \"19BBY\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/films/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"films",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/planet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/planet",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"planet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/planet/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/planet/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"planet",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/planet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/planet",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"planet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/planet/1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/planet/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"planet",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/planet/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/planet/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"planet",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/species",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/species",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"species"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/species/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/species/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"species",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/species",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/species",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"species"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/species/1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/species/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"species",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/species/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/species/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"species",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/starships",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/starships",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"starships"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/starships/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/starships/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"starships",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/starships",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/starships",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"starships"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/starships/1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/starships/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"starships",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/starships/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/starships/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"starships",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/vehicles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/vehicles",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"vehicles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/vehicles/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/vehicles/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"vehicles",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/vehicles",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/vehicles",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"vehicles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/vehicles/1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/vehicles/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"vehicles",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/vehicles/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/vehicles/{{pk}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"vehicles",
+						"{{pk}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

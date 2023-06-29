@@ -1,0 +1,11 @@
+Le modèle de Richardson, également connu sous le nom de modèle de maturité Richardson, est une approche de conception d'API REST qui encourage une évolutivité et une maintenabilité optimales. Il divise les fonctionnalités d'une API en différentes couches, également appelées niveaux, chacune ayant un rôle spécifique. En tant que développeur, j'ai respecté le modèle de Richardson dans le code que j'ai écrit de la manière suivante :
+
+Niveau 0 - Utilisation de protocoles HTTP : J'ai utilisé le protocole HTTP pour définir les méthodes CRUD (Create, Read, Update, Delete) dans mon code. J'ai utilisé les verbes GET, POST, PATCH et DELETE pour effectuer les opérations correspondantes sur les ressources.
+
+Niveau 1 - Identification des ressources : J'ai identifié les ressources dans les URLs de mon API. Par exemple, j'ai utilisé "/films" pour représenter la collection de films, "/people" pour représenter la collection de personnes, etc.
+
+Niveau 2 - Utilisation des verbes HTTP : J'ai utilisé les verbes HTTP de manière appropriée pour effectuer des opérations spécifiques sur les ressources. Par exemple, j'ai utilisé GET pour récupérer des ressources, POST pour créer de nouvelles ressources, PATCH pour mettre à jour des ressources existantes et DELETE pour supprimer des ressources.
+
+Niveau 3 - Utilisation des liens hypertexte : Dans mon code, je n'ai pas utilisé explicitement les liens hypertexte pour permettre la découverte des fonctionnalités de l'API. Cependant, cela peut être ajouté en utilisant des techniques telles que HATEOAS (Hypermedia as the Engine of Application State) pour fournir des liens hypertexte permettant la navigation entre les ressources.
+
+Dans l'ensemble, j'ai respecté le modèle de Richardson en utilisant les principes de base de REST, en identifiant les ressources, en utilisant les verbes HTTP appropriés et en fournissant des points de terminaison pour les opérations CRUD. Cependant, l'ajout de la navigation basée sur les liens hypertexte pourrait encore améliorer l'API selon le niveau 3 du modèle de Richardson.
